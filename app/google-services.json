@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "539752599830",
+    "firebase_url": "https://call-for-doctors.firebaseio.com",
+    "project_id": "call-for-doctors",
+    "storage_bucket": "call-for-doctors.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539752599830:android:6e21a1d02c4c2e8c",
+        "android_client_info": {
+          "package_name": "com.shuttle.easytransport.callfordoctors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539752599830-o29av7m2q43k2ij81o9h855m7iummeet.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shuttle.easytransport.callfordoctors",
+            "certificate_hash": "8aea7471bc7a5d1af6bdad1dba08b99452baf21b"
+          }
+        },
+        {
+          "client_id": "539752599830-frllgodgvrite8p5ifnj7bo8roin8ohs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shuttle.easytransport.callfordoctors",
+            "certificate_hash": "1b49643cb77025c000040afb5ebffa83fbf4ef59"
+          }
+        },
+        {
+          "client_id": "539752599830-qavsg08gjhduh7oshmvboc2g91i6epr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi7vb_MvZCDVfIrPF8BBseMltcaRdLdZo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539752599830-qavsg08gjhduh7oshmvboc2g91i6epr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

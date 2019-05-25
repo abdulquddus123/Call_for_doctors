@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".Activity.SplashActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/icon"
+            android:src="@drawable/logo"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@+id/icon"
+            android:id="@+id/app_name"
+            android:layout_height="wrap_content"
+            android:text="Call For Doctor's"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/cadet_blue"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_height="wrap_content"
+            android:text="healthy life better life"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="center"
+            android:layout_below="@+id/app_name"
+            android:id="@+id/app_title"
+
+            android:textAllCaps="true"
+
+            android:textStyle="bold"
+            android:textColor="@color/cadet_blue"
+             />
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

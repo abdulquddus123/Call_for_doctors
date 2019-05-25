@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:whatever="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_image"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="?attr/actionBarSize"-->
+        <!--android:id="@+id/myToolbar"-->
+        <!--app:popupTheme="@style/ThemeOverlay.AppCompat.Light"-->
+        <!--app:theme="@style/ToolbarColoredBackArrow"-->
+        <!--app:titleTextColor="@color/white"-->
+
+        <!--&gt;-->
+
+    <!--</android.support.v7.widget.Toolbar>-->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Call For Doctors"
+        android:textSize="35dp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+        />
+
+
+    <android.support.v7.widget.CardView
+        android:layout_marginLeft="20dp"
+
+        android:layout_marginTop="20dp"
+        whatever:cardElevation="10dp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/login_email"
+                    android:hint="Your Email" />
+
+
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/login_password"
+                    android:layout_height="wrap_content"
+                    android:hint="Password" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/login_btn"
+                android:background="@color/darkGreen"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Crate Accoutt as a Patient"
+                android:id="@+id/registation_patient"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/darkGreen"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Crate Accoutt as a Doctors"
+                android:id="@+id/registation_doctor"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/darkGreen"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
